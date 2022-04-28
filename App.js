@@ -19,7 +19,7 @@ export default function App() {
     if (currentScore>=highScore) {
       setHighScore(currentScore+1)
     }
-  };
+  }
 
 
   function startGame() {
@@ -56,7 +56,7 @@ export default function App() {
     }, 1000) //each count lasts for a second
     //cleanup the interval on complete
     return () => clearInterval(interval), setTimer(10)
-  };
+  }
 
 
 
