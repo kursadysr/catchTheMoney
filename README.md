@@ -12,3 +12,5 @@ run "npm install -g expo-cli"
 run "npm install"
 
 run "npm start"
+
+You can try the game at https://snack.expo.dev/@kursadysr/catchthemoney
